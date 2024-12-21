@@ -1,0 +1,1 @@
+is_an_experienced_programmer = candidate.years_of_experience >= 2 or candidate.github_points >= 500 and candidate.age >= 15 and !candidate.applied_recently? and candidate.languages_worked_with.include?('Ruby')
